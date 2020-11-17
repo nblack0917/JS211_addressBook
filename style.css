@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+
+}
+ul {
+    padding: 0;
+}
+h3 {
+    margin: 10px 0;
+}
+.headline {
+    width: 100%;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: midnightblue;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 750px;
+    background: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0 30px 40px;
+}
+.userList > li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px 0;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.userList img {
+    max-width: 128px;
+    border-radius: 25%;
+    margin: 10px 0;
+}
+
+.userList button {
+    max-width: 128px;
+}
+
+.resultList {
+    list-style: disc;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    max-width: 700px;
+}

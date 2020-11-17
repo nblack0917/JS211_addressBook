@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Address Book</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="headline">
+            <h3>Address Book</h3>
+        </div>
+        <div>
+            <ul id='all-posts' class="userList"></ul>
+        </div>
+        <button onclick="displayShortList()">Display user with only name, cell, and picture</button>
+        <div>
+            <ul id='some-posts' class="userList"></ul>
+        </div>
+        <button onclick="displaySelectList()">Display user without dob, registered, nationality, location</button>
+        <div>
+            <ul id='without-posts' class="userList"></ul>
+        </div>
+      <script src="./main.js"></script>
+    </div>
+</body>
+</html>
